@@ -28,6 +28,5 @@ logging:
     org.hibernate.sql: debug
     org.springframework.security: debug
 
-server:
-  address: 172.16.96.113
+
 
