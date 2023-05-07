@@ -109,7 +109,7 @@ public class UserServices {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         UserDetails userDetails = (UserDetails) auth.getPrincipal();
         User user = userRepo.findUserByuId(userDetails.getUsername()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
-        return transactionsRepository.findAllByUser(user).stream().map(this::convertTransactionsToDTO).toList();
+        return transactionsRepository.findAllByUserOrderByDateCreatedDesc(user).stream().map(this::convertTransactionsToDTO).toList();
     }
 
     public Map<String, Integer> getUserJoinedCount(){
