@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 @RequiredArgsConstructor
-//@Component
+@Component
 public class Bootstrap implements CommandLineRunner {
 
 
