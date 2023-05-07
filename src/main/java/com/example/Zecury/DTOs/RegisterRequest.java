@@ -16,8 +16,6 @@ import java.util.Date;
 public class RegisterRequest {
     @NotBlank(message = "username should not be empty")
     private String name;
-    @NotBlank(message = "password should not be empty")
-    private String password;
     @NotBlank(message = "homeless are not allowed try orphanage")
     private String address;
     @Email(message = "provide valid Email id")
