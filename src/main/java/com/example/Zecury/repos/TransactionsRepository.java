@@ -10,6 +10,7 @@ import java.util.List;
 
 public interface TransactionsRepository extends JpaRepository<Transactions,String> {
     List<Transactions> findAllByUser(User user);
+    List<Transactions> findAllByUserOrderByDateCreatedDesc(User user);
     List<Transactions> findAllByUserAndDateCreatedBetween(User user, Date start, Date end);
     List<Transactions> findAllByMessageIsLikeAndDateCreatedBetween(String string2, Date start, Date end);
 
