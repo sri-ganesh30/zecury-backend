@@ -1,9 +1,5 @@
 HELP.md
-.run
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+/.run
 
 ### STS ###
 .apt_generated
