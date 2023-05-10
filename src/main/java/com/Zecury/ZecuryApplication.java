@@ -8,7 +8,7 @@ public class ZecuryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication application = new SpringApplication(ZecuryApplication.class);
-//		application.setRegisterShutdownHook(false);
+		application.setRegisterShutdownHook(false);
 		application.run(args);
 	}
 	
