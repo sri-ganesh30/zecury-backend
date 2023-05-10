@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ZecuryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZecuryApplication.class, args);
+		SpringApplication application = new SpringApplication(ZecuryApplication.class);
+		application.setRegisterShutdownHook(false);
+		application.run(args);
 	}
 	
 
