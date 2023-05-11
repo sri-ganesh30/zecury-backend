@@ -1,0 +1,41 @@
+# Created at 2023-05-10T19:17:55.013
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2023-05-10T19:18:31.303
+Unexpected IOException with stream: 2023-05-10T19:18:31.302+05:30  INFO 20868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2023-05-10T19:18:31.329
+Unexpected IOException with stream: 2023-05-10T19:18:31.328+05:30  INFO 20868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2023-05-10T19:18:33.436
+Unexpected IOException with stream: 2023-05-10T19:18:33.435+05:30  WARN 20868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2023-05-10T19:18:35.175
+Unexpected IOException with stream: 2023-05-10T19:18:35.174+05:30  INFO 20868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f006edf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20843604, org.springframework.security.web.context.SecurityContextHolderFilter@51d41b97, org.springframework.security.web.header.HeaderWriterFilter@7fb2645b, org.springframework.web.filter.CorsFilter@28dd038f, org.springframework.security.web.authentication.logout.LogoutFilter@5ab29866, com.Zecury.config.JwtAuthenticationFilter@3b3a3a92, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27260f9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25031fd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31d8352e, org.springframework.security.web.session.SessionManagementFilter@16b713dd, org.springframework.security.web.access.ExceptionTranslationFilter@7c7a4986, org.springframework.security.web.access.intercept.AuthorizationFilter@6a7cbeed]
+
+
+# Created at 2023-05-10T19:18:36.503
+Unexpected IOException with stream: 2023-05-10T19:18:36.500+05:30  INFO 20868 --- [           main] com.Zecury.ZecuryApplicationTests        : Started ZecuryApplicationTests in 67.96 seconds (process running for 70.629)
+
+
+# Created at 2023-05-10T19:18:36.554
+Unexpected IOException: 5,1,com.Zecury.ZecuryApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-05-10T19:18:36.940
+Unexpected IOException: 6,1,com.Zecury.ZecuryApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-05-10T19:18:36.945
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.Zecury.ZecuryApplicationTests,null,null,null
+
+
