@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="zecury" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="20" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="DB_URL" value="jdbc:postgresql://ep-crimson-cherry-191685.ap-southeast-1.aws.neon.tech/neondb" />
+      <env name="DB_USERNAME" value="bankease.banking" />
+      <env name="DB_PWD" value="RNKf39mMjdSP" />
+      <env name="GMAIL_ID" value="bankease.banking@gmail.com" />
+      <env name="GMAIL_PWD" value="dtniqxynzflcckoz" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.Zecury.ZecuryApplication" />
+    <module name="Zecury-Retail-banking" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
