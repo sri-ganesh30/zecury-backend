@@ -31,5 +31,6 @@ server:
   tomcat:
     accesslog:
       enabled: true
+  port: 8080
 
 
